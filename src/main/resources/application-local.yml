@@ -1,0 +1,11 @@
+spring:
+# 즉시 반영
+  devtools:
+    livereload:
+      enabled: true
+
+profile:
+  id: local
+
+local:
+  url: http://localhost
